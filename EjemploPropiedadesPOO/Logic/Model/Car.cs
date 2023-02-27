@@ -30,5 +30,6 @@ namespace Logic.Model
             string msj = "El carro de modelo " + model + " Esta encendido";
             return msj;
         }
+
     }
 }

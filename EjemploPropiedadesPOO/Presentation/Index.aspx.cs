@@ -15,6 +15,10 @@ namespace Presentation
             Car objCar= new Car();//Creo un objeto de Car
             string msj = objCar.star();//Invocamos el metodo star
             LblMsj1.Text = msj;//Asignamos la variable msj
+
+            Phone objPhone = new Phone();
+            string msj1 = objPhone.Star();
+            Lblmsj2.Text= msj1;
         }
     }
 }
