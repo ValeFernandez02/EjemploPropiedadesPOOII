@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="Model\Car.cs" />
     <Compile Include="Model\Phone.cs" />
+    <Compile Include="Model\Soccer_game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

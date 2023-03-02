@@ -19,6 +19,10 @@ namespace Presentation
             Phone objPhone = new Phone();
             string msj1 = objPhone.Star();
             Lblmsj2.Text= msj1;
+
+            Soccer_game objSpccer = new Soccer_game();
+            string msj2 = objSpccer.Star();
+            Lblmsj3.Text = msj2;
         }
     }
 }

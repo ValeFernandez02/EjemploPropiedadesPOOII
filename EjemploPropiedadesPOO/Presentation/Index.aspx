@@ -15,6 +15,11 @@
 
             <asp:Label ID="Label2" runat="server" Text="">"---Objeto phone---"</asp:Label><br />
             <asp:Label ID="Lblmsj2" runat="server" Text=""></asp:Label><br />
+
+            <asp:Label ID="Label3" runat="server" Text="---objeto soccer---"></asp:Label><br />
+            <asp:Label ID="Lblmsj3" runat="server" Text=""></asp:Label><br />
+
+
         </div>
     </form>
 </body>
