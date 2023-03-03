@@ -23,6 +23,12 @@ namespace Presentation
             Soccer_game objSpccer = new Soccer_game();
             string msj2 = objSpccer.Star();
             Lblmsj3.Text = msj2;
+
+            Laptop objLatop = new Laptop();
+            string msj3 = objLatop.Star();
+            Lblmsj4.Text = msj3;
+
+
         }
     }
 }
