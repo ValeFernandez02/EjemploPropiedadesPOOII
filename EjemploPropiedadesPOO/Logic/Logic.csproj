@@ -70,8 +70,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Book.cs" />
     <Compile Include="Model\Car.cs" />
+    <Compile Include="Model\Card.cs" />
+    <Compile Include="Model\house.cs" />
     <Compile Include="Model\Laptop.cs" />
+    <Compile Include="Model\person.cs" />
     <Compile Include="Model\Phone.cs" />
     <Compile Include="Model\Soccer_game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

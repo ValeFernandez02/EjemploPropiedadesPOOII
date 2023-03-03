@@ -22,6 +22,18 @@
             <asp:Label ID="Label4" runat="server" Text="---objeto laptop---"></asp:Label><br />
             <asp:Label ID="Lblmsj4" runat="server" Text=""></asp:Label><br />
 
+            <asp:Label ID="Label5" runat="server" Text="---objeto card---"></asp:Label><br />
+            <asp:Label ID="Lblmsj5" runat="server" Text=""></asp:Label><br />
+
+            <asp:Label ID="Label6" runat="server" Text="---objeto book---"></asp:Label><br />
+            <asp:Label ID="Lblsmj6" runat="server" Text=""></asp:Label><br />
+
+            <asp:Label ID="Label7" runat="server" Text="---objeto persona---"></asp:Label><br />
+            <asp:Label ID="Lblmsj7" runat="server" Text=""></asp:Label><br />
+
+            <asp:Label ID="Label8" runat="server" Text="---objeto house---"></asp:Label><br />
+            <asp:Label ID="Lblmsj8" runat="server" Text=""></asp:Label><br />
+
 
         </div>
     </form>
