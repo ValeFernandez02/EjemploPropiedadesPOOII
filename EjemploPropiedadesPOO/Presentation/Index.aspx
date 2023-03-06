@@ -13,6 +13,13 @@
             <asp:Label ID="Label1" runat="server" Text="---Objeto Car---"></asp:Label><br />
             <asp:Label ID="LblMsj1" runat="server" Text=""></asp:Label><br />
 
+            <asp:Label ID="Label9" runat="server" Text="---Objeto Car1---"></asp:Label><br />
+            <asp:Label ID="Lblmsj10" runat="server" Text=""></asp:Label><br />
+
+            <asp:Label ID="Label11" runat="server" Text="---Objeto Car2---"></asp:Label><br />
+            <asp:Label ID="Lblmsj9" runat="server" Text=""></asp:Label><br />
+
+
             <asp:Label ID="Label2" runat="server" Text="">"---Objeto phone---"</asp:Label><br />
             <asp:Label ID="Lblmsj2" runat="server" Text=""></asp:Label><br />
 

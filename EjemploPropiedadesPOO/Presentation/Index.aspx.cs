@@ -12,9 +12,36 @@ namespace Presentation
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Car objCar= new Car();//Creo un objeto de Car
-            string msj = objCar.star();//Invocamos el metodo star
+            Car objCar1= new Car();//Creo un objeto de Car
+            objCar1.Color = "verde";
+            objCar1.Model = 2023;
+            objCar1.Gallons = 5.8;
+            objCar1.Brand = "BMW";
+
+
+            Car objcar2= new Car();
+            objcar2.Color = "Negro";
+            objcar2.Model = 2024;
+            objcar2.Gallons = 2.9;
+            objcar2.Brand = "Aston Martin";
+
+
+            Car objCar3 = new Car();
+            objCar3.Color = "Rojo";
+            objCar3.Model = 2020;
+            objCar3.Gallons = 6.9;
+            objCar3.Brand = "Ferrari";
+
+
+
+            string msj = objCar1.star();//Invocamos el metodo star
             LblMsj1.Text = msj;//Asignamos la variable msj
+
+            string msj10 = objcar2.star();//Invocamos el metodo star
+            Lblmsj10.Text = msj10;
+
+            string msj9 = objCar3.star();//Invocamos el metodo star
+            Lblmsj9.Text = msj9;
 
 
             Phone objPhone = new Phone();

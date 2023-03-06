@@ -10,11 +10,22 @@ namespace Logic.Model
         /*
          * Defino las caracteristicas del objeto carro
          * Es decir la Abstraccion
+         * 
+         * Defino el nivel de ocultacion cerrado.
          */
 
-        string color = "verde";
-        int model = 2023;
-        double gallons = 15.8;
+        private string color ;
+        private int model ;
+        private double gallons;
+        private string brand;
+        /*
+         * Encapsulacion
+         */
+        public string Color { get => color; set => color = value; }
+        public int Model { get => model; set => model = value; }
+        public double Gallons { get => gallons; set => gallons = value; }
+        public string Brand { get => brand; set => brand = value; }
+
 
 
         /*
@@ -22,12 +33,12 @@ namespace Logic.Model
          */
         public string stop()
         {
-            string msj = "El carro de color " + color + " esta detenido";
+            string msj = "El carro de color " + Color + " esta detenido";
             return msj;
         }
         public string star()
         {
-            string msj = "El carro de modelo " + model + " Esta encendido";
+            string msj = "El carro de modelo " + Model + ", maraca "+Brand+" y color  "+color+" Esta encendido";
             return msj;
         }
 
