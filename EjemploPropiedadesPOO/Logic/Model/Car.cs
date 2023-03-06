@@ -38,7 +38,7 @@ namespace Logic.Model
         }
         public string star()
         {
-            string msj = "El carro de modelo " + Model + ", maraca "+Brand+" y color  "+color+" Esta encendido";
+            string msj = "El carro de modelo " + Model + ", marca "+Brand+" y color  "+color+" Esta encendido";
             return msj;
         }
 
