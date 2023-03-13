@@ -12,25 +12,15 @@ namespace Presentation
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Car objCar1= new Car();//Creo un objeto de Car
-            objCar1.Color = "verde";
-            objCar1.Model = 2023;
-            objCar1.Gallons = 5.8;
-            objCar1.Brand = "BMW";
+            Car objCar1= new Car("verde",2023,5.8,"BMW");//Creo un objeto de Car
+           
 
 
-            Car objcar2= new Car();
-            objcar2.Color = "Negro";
-            objcar2.Model = 2024;
-            objcar2.Gallons = 2.9;
-            objcar2.Brand = "Aston Martin";
+            Car objcar2= new Car("Negro", 2024, 2.9, "Astan Martin");
+          
 
 
-            Car objCar3 = new Car();
-            objCar3.Color = "Rojo";
-            objCar3.Model = 2020;
-            objCar3.Gallons = 6.9;
-            objCar3.Brand = "Ferrari";
+            Car objCar3 = new Car("Rojo",2020,6.9,"Ferrari");
 
 
 

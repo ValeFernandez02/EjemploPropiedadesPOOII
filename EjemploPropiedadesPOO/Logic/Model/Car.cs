@@ -18,20 +18,34 @@ namespace Logic.Model
         private int model ;
         private double gallons;
         private string brand;
+        
+
         /*
-         * Encapsulacion
-         */
+* Encapsulacion
+*/
         public string Color { get => color; set => color = value; }
         public int Model { get => model; set => model = value; }
         public double Gallons { get => gallons; set => gallons = value; }
         public string Brand { get => brand; set => brand = value; }
 
-
-
         /*
-         * Defino los metodos
-         */
-        public string stop()
+         * Constructor
+         * /
+
+        /*/
+
+        public Car(string color, int model, double gallons, string brand)
+        {
+            this.color = color;
+            this.model = model;
+            this.gallons = gallons;
+            this.brand = brand;
+        }
+
+            /*
+             * Defino los metodos
+             */
+            public string stop()
         {
             string msj = "El carro de color " + Color + " esta detenido";
             return msj;
