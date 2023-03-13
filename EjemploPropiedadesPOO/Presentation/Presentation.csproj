@@ -69,6 +69,14 @@
   <ItemGroup>
     <Content Include="Index.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WFBook.aspx" />
+    <Content Include="WFCar.aspx" />
+    <Content Include="WFCard.aspx" />
+    <Content Include="WFHouse.aspx" />
+    <Content Include="WFLaptop.aspx" />
+    <Content Include="WFPerson.aspx" />
+    <Content Include="WFPhone.aspx" />
+    <Content Include="WFSoccer.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Index.aspx.cs">
@@ -79,6 +87,62 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WFBook.aspx.cs">
+      <DependentUpon>WFBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFBook.aspx.designer.cs">
+      <DependentUpon>WFBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFCar.aspx.cs">
+      <DependentUpon>WFCar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFCar.aspx.designer.cs">
+      <DependentUpon>WFCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFCard.aspx.cs">
+      <DependentUpon>WFCard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFCard.aspx.designer.cs">
+      <DependentUpon>WFCard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFHouse.aspx.cs">
+      <DependentUpon>WFHouse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFHouse.aspx.designer.cs">
+      <DependentUpon>WFHouse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFLaptop.aspx.cs">
+      <DependentUpon>WFLaptop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFLaptop.aspx.designer.cs">
+      <DependentUpon>WFLaptop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFPerson.aspx.cs">
+      <DependentUpon>WFPerson.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFPerson.aspx.designer.cs">
+      <DependentUpon>WFPerson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFPhone.aspx.cs">
+      <DependentUpon>WFPhone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFPhone.aspx.designer.cs">
+      <DependentUpon>WFPhone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFSoccer.aspx.cs">
+      <DependentUpon>WFSoccer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFSoccer.aspx.designer.cs">
+      <DependentUpon>WFSoccer.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

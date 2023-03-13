@@ -10,6 +10,16 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="Label1" runat="server" Text="Propiedades POO"></asp:Label><br />
+            <asp:LinkButton ID="LBCar" runat="server" OnClick="LBCar_Click">Car</asp:LinkButton><br />
+            <asp:LinkButton ID="LBPhone" runat="server" OnClick="LBPhone_Click">Phone</asp:LinkButton><br />
+            <asp:LinkButton ID="LBPerson" runat="server" OnClick="LBPerson_Click">Person</asp:LinkButton><br />
+            <asp:LinkButton ID="LBScoccer" runat="server" OnClick="LBScoccer_Click">Soccer</asp:LinkButton><br />
+            <asp:LinkButton ID="LBCard" runat="server" OnClick="LBCard_Click">Card</asp:LinkButton><br />
+            <asp:LinkButton ID="LBBook" runat="server" OnClick="LBBook_Click">Bokk</asp:LinkButton><br />
+            <asp:LinkButton ID="LBLaptop" runat="server" OnClick="LBLaptop_Click">Laptop</asp:LinkButton><br />
+            <asp:LinkButton ID="LBHouse" runat="server" OnClick="LBHouse_Click1">House</asp:LinkButton><br />
+
             <%--Cajas de texto para ingresar los datos--%>
             <asp:Label ID="Label12" runat="server" Text="Color: "></asp:Label>
             <asp:TextBox ID="TBColor" runat="server"></asp:TextBox><br />
