@@ -41,11 +41,16 @@ namespace Logic.Model
             this.gallons = gallons;
             this.brand = brand;
         }
+        public Car( int model, string brand)
+        {
+            this.model = model;
+            this.brand = brand;
+        }
 
-            /*
-             * Defino los metodos
-             */
-            public string stop()
+        /*
+         * Defino los metodos
+         */
+        public string stop()
         {
             string msj = "El carro de color " + Color + " esta detenido";
             return msj;

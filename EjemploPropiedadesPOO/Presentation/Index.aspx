@@ -10,13 +10,31 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="---Objeto Car---"></asp:Label><br />
+            <%--Cajas de texto para ingresar los datos--%>
+            <asp:Label ID="Label12" runat="server" Text="Color: "></asp:Label>
+            <asp:TextBox ID="TBColor" runat="server"></asp:TextBox><br />
+
+            <asp:Label ID="Label14" runat="server" Text="Modelo: "></asp:Label>
+            <asp:TextBox ID="TBModelo" runat="server"></asp:TextBox><br />
+
+             <asp:Label ID="Label15" runat="server" Text="Galones: "></asp:Label>
+            <asp:TextBox ID="TBGallons" runat="server"></asp:TextBox><br />
+
+             <asp:Label ID="Label16" runat="server" Text="Brand: "></asp:Label>
+            <asp:TextBox ID="TBBrand" runat="server"></asp:TextBox><br />
+
+            <%--Boton para ejecutar un evento--%>
+            <asp:Button ID="BTEnviar" runat="server" Text="Enviar" Height="29px" OnClick="BTEnviar_Click" Width="68px" />
+
+
+
+            
             <asp:Label ID="LblMsj1" runat="server" Text=""></asp:Label><br />
 
-            <asp:Label ID="Label9" runat="server" Text="---Objeto Car1---"></asp:Label><br />
+            
             <asp:Label ID="Lblmsj10" runat="server" Text=""></asp:Label><br />
 
-            <asp:Label ID="Label11" runat="server" Text="---Objeto Car2---"></asp:Label><br />
+            
             <asp:Label ID="Lblmsj9" runat="server" Text=""></asp:Label><br />
             
 

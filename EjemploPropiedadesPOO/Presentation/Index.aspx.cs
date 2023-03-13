@@ -8,30 +8,20 @@ using System.Web.UI.WebControls;
 
 namespace Presentation
 {
+
     public partial class Index : System.Web.UI.Page
-    {
+    {/*
+      * variables globales
+      */
+        private string color;
+        private int model;
+        private double gallons;
+        private string brand;
         protected void Page_Load(object sender, EventArgs e)
         {
-            Car objCar1= new Car("verde",2023,5.8,"BMW");//Creo un objeto de Car
            
+                
 
-
-            Car objcar2= new Car("Negro", 2024, 2.9, "Astan Martin");
-          
-
-
-            Car objCar3 = new Car("Rojo",2020,6.9,"Ferrari");
-
-
-
-            string msj = objCar1.star();//Invocamos el metodo star
-            LblMsj1.Text = msj;//Asignamos la variable msj
-
-            string msj10 = objcar2.star();//Invocamos el metodo star
-            Lblmsj10.Text = msj10;
-
-            string msj9 = objCar3.star();//Invocamos el metodo star
-            Lblmsj9.Text = msj9;
 
 
             Phone objPhone = new Phone();
@@ -114,6 +104,28 @@ namespace Presentation
             Lblmsj8.Text = msj7;
 
 
+        }
+
+        private void LimpiarCajas()
+        {
+            TBColor.Text = " ";
+            TBBrand.Text = " ";
+            TBGallons.Text = " ";
+            TBModelo.Text = " ";
+        }
+
+        protected void BTEnviar_Click(object sender, EventArgs e)
+        {
+            color = TBColor.Text;
+            model = Convert.ToInt32( TBModelo.Text);
+            gallons = Convert.ToDouble( TBGallons.Text);
+            brand = TBBrand.Text;
+
+            Car objCar1 = new Car(color, model, gallons, brand);
+
+            Lblmsj10.Text = objCar1.star();
+
+            LimpiarCajas();
         }
     }
 }
