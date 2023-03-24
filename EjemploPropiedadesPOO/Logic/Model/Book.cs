@@ -12,6 +12,14 @@ namespace Logic.Model
         private int chapters ;
         private string date_lounch;
 
+        public Book(string name_book, int pag, int chapters, string date_lounch)
+        {
+            this.name_book = name_book;
+            this.pag = pag;
+            this.chapters = chapters;
+            this.date_lounch = date_lounch;
+        }
+
         public string Name_book { get => name_book; set => name_book = value; }
         public int Pag { get => pag; set => pag = value; }
         public int Chapters { get => chapters; set => chapters = value; }

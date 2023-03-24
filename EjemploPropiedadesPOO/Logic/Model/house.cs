@@ -7,10 +7,18 @@ namespace Logic.Model
 {
     public class house
     {
-        int room = 5;
-        string neighborhood = "Brookland";
-        int bathroom = 4;
-        int floor = 2;
+        private int room ;
+        private string neighborhood ;
+        private int bathroom ;
+        private int floor ;
+
+        public house(int room, string neighborhood, int bathroom, int floor)
+        {
+            this.room = room;
+            this.neighborhood = neighborhood;
+            this.bathroom = bathroom;
+            this.floor = floor;
+        }
 
         public int Room { get => room; set => room = value; }
         public string Neighborhood { get => neighborhood; set => neighborhood = value; }

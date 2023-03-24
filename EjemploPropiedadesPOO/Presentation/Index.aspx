@@ -16,25 +16,10 @@
             <asp:LinkButton ID="LBPerson" runat="server" OnClick="LBPerson_Click">Person</asp:LinkButton><br />
             <asp:LinkButton ID="LBScoccer" runat="server" OnClick="LBScoccer_Click">Soccer</asp:LinkButton><br />
             <asp:LinkButton ID="LBCard" runat="server" OnClick="LBCard_Click">Card</asp:LinkButton><br />
-            <asp:LinkButton ID="LBBook" runat="server" OnClick="LBBook_Click">Bokk</asp:LinkButton><br />
+            <asp:LinkButton ID="LBBook" runat="server" OnClick="LBBook_Click">Book</asp:LinkButton><br />
             <asp:LinkButton ID="LBLaptop" runat="server" OnClick="LBLaptop_Click">Laptop</asp:LinkButton><br />
             <asp:LinkButton ID="LBHouse" runat="server" OnClick="LBHouse_Click1">House</asp:LinkButton><br />
-
-            <%--Cajas de texto para ingresar los datos--%>
-            <asp:Label ID="Label12" runat="server" Text="Color: "></asp:Label>
-            <asp:TextBox ID="TBColor" runat="server"></asp:TextBox><br />
-
-            <asp:Label ID="Label14" runat="server" Text="Modelo: "></asp:Label>
-            <asp:TextBox ID="TBModelo" runat="server"></asp:TextBox><br />
-
-             <asp:Label ID="Label15" runat="server" Text="Galones: "></asp:Label>
-            <asp:TextBox ID="TBGallons" runat="server"></asp:TextBox><br />
-
-             <asp:Label ID="Label16" runat="server" Text="Brand: "></asp:Label>
-            <asp:TextBox ID="TBBrand" runat="server"></asp:TextBox><br />
-
-            <%--Boton para ejecutar un evento--%>
-            <asp:Button ID="BTEnviar" runat="server" Text="Enviar" Height="29px" OnClick="BTEnviar_Click" Width="68px" />
+ />
 
 
 
@@ -42,7 +27,7 @@
             <asp:Label ID="LblMsj1" runat="server" Text=""></asp:Label><br />
 
             
-            <asp:Label ID="Lblmsj10" runat="server" Text=""></asp:Label><br />
+            
 
             
             <asp:Label ID="Lblmsj9" runat="server" Text=""></asp:Label><br />

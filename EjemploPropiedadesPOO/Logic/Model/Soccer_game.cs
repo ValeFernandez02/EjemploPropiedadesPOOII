@@ -9,10 +9,18 @@ namespace Logic.Model
     {
         //Defino las caracteristicas de soccer_game
 
-        private int number_of_players = 11;
-        private string game_time = "90 minutos";
-        private string equipment = "2 equipos";
-        private string gamer_name = "Futbool";
+        private int number_of_players;
+        private string game_time ;
+        private string equipment;
+        private string gamer_name;
+
+        public Soccer_game(int number_of_players, string game_time, string equipment, string gamer_name)
+        {
+            this.number_of_players = number_of_players;
+            this.game_time = game_time;
+            this.equipment = equipment;
+            this.gamer_name = gamer_name;
+        }
 
         public int Number_of_players { get => number_of_players; set => number_of_players = value; }
         public string Game_time { get => game_time; set => game_time = value; }
@@ -22,7 +30,7 @@ namespace Logic.Model
         //defino los metodos
         public string Star()
         {
-            string msj = "El juego de " + Gamer_name + " tiene duracion de "+Game_time+" y juegan "+Equipment+" cada equipo tiene "+Number_of_players;
+            string msj = "El juego de " + Gamer_name + " tiene duracion de "+Game_time+" y juegan "+Equipment+" Equipos"+" cada equipo tiene "+Number_of_players;
             return msj;
         }
         public string get_game_time()

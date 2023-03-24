@@ -12,6 +12,14 @@ namespace Logic.Model
         private double size ;
         private int ram ;
 
+        public Laptop(string brand, string processor, double size, int ram)
+        {
+            this.brand = brand;
+            this.processor = processor;
+            this.size = size;
+            this.ram = ram;
+        }
+
         public string Brand { get => brand; set => brand = value; }
         public string Processor1 { get => processor; set => processor = value; }
         public double Size1 { get => size; set => size = value; }

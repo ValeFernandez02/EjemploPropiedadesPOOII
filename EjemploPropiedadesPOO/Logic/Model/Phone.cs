@@ -15,6 +15,16 @@ namespace Logic.Model
         private double Series ;
         private string color ;
         private string model ;
+        /*
+         *Constructor
+         */
+        public Phone(string brand, double series, string color, string model)
+        {
+            this.brand = brand;
+            this.Series = series;
+            this.color = color;
+            this.model = model;
+        }
 
         public string Brand { get => brand; set => brand = value; }
         public double Series1 { get => Series; set => Series = value; }

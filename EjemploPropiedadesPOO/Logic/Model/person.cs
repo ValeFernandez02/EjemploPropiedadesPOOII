@@ -7,10 +7,18 @@ namespace Logic.Model
 {
     public class person
     {
-        string coloreyes = "azul";
-        int ege = 19;
-        int document = 1019012090;
-        double height = 1.58;
+        private string coloreyes ;
+        private int ege ;
+        private int document ;
+        private double height ;
+
+        public person(string coloreyes, int ege, int document, double height)
+        {
+            this.coloreyes = coloreyes;
+            this.ege = ege;
+            this.document = document;
+            this.height = height;
+        }
 
         public string Coloreyes { get => coloreyes; set => coloreyes = value; }
         public int Ege { get => ege; set => ege = value; }
@@ -20,7 +28,7 @@ namespace Logic.Model
         //metodo 
         public string infoper()
         {
-            string msj = "La persona con el color de ojos " + Coloreyes + " y de estatura" + Height + " Con la edad "+Ege+" y el documento "+Document;
+            string msj = " La persona con el color de ojos  " + Coloreyes + "  y de estatura " + Height + " Con la edad "+Ege+" y el documento "+Document;
             return msj;
         }
         public string doc()

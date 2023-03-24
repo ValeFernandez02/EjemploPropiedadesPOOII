@@ -10,7 +10,23 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Desde Laptop"></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Desde Laptop"></asp:Label><br />
+            <asp:Label ID="Lblmsj36" runat="server" Text=""></asp:Label><br />
+
+             <%--Cajas de texto para ingresar los datos--%>
+            <asp:Label ID="Label12" runat="server" Text="Marca: "></asp:Label>
+            <asp:TextBox ID="TBMarca" runat="server"></asp:TextBox><br />
+
+            <asp:Label ID="Label14" runat="server" Text="Procesador: "></asp:Label>
+            <asp:TextBox ID="TBProcesador" runat="server"></asp:TextBox><br />
+
+             <asp:Label ID="Label15" runat="server" Text="Tamaño: "></asp:Label>
+            <asp:TextBox ID="TBTamaño" runat="server"></asp:TextBox><br />
+
+             <asp:Label ID="Label16" runat="server" Text="Ram: "></asp:Label>
+            <asp:TextBox ID="TBRam" runat="server"></asp:TextBox><br />
+
+            <asp:Button ID="BTEnviar" runat="server" Text="Enviar" Height="29px" OnClick="BTEnviar_Click" Width="68px" />
 
         </div>
     </form>
