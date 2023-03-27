@@ -11,30 +11,38 @@ namespace Presentation
 {
     public partial class WFPerson : System.Web.UI.Page
     {
-        private string coloreyes;
-        private int ege;
-        private int document;
-        private double height;
+        private string nombre;
+        private string apellido;
+        private string document;
+        private string tipoContrato;
+        private int sueldo;
+        //private double height;
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
         private void LimpiarCajas()
         {
-        TBEyes.Text = " ";
-        TBEge.Text = " ";
+        TBNombres.Text = " ";
+        TBApellidos.Text = " ";
         TBDocument.Text = " ";
-        TBHeight.Text = " ";
+        //TBHeight.Text = " ";
         }
         protected void BTEnviar_Click(object sender, EventArgs e)
         {
-            coloreyes = TBEyes.Text;
-            ege=Convert.ToInt32(TBEge.Text);
-            document = Convert.ToInt32(TBDocument.Text);
-            height = Convert.ToDouble(TBHeight.Text);
+            string mensaje;
+            nombre = TBNombres.Text;
+            apellido= TBApellidos.Text;
+            document = TBDocument.Text;
+            sueldo = Convert.ToInt32(sueldo);
+            tipoContrato = DDLTipoContrato.Text;
+            //height = Convert.ToDouble(TBHeight.Text);
 
-            person objperson = new person(coloreyes, ege,document,height);
-            Lblmsj31.Text = objperson.infoper();
+            Employee objEmployee = new Employee(nombre, apellido, document, tipoContrato, sueldo);
+            mensaje = objEmployee.bonoEmpleado();
+            LblMensaje.Text = mensaje;
+            //person objperson = new person(nombre,apellido,document);
+            //Lblmsj31.Text = objperson.doc();
             LimpiarCajas();
 
         }

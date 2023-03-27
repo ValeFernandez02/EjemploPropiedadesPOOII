@@ -51,13 +51,13 @@ namespace Presentation
         protected global::System.Web.UI.WebControls.Label Label12;
 
         /// <summary>
-        /// Control TBEyes.
+        /// Control TBNombres.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBEyes;
+        protected global::System.Web.UI.WebControls.TextBox TBNombres;
 
         /// <summary>
         /// Control Label14.
@@ -69,13 +69,13 @@ namespace Presentation
         protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// Control TBEge.
+        /// Control TBApellidos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBEge;
+        protected global::System.Web.UI.WebControls.TextBox TBApellidos;
 
         /// <summary>
         /// Control Label15.
@@ -96,22 +96,40 @@ namespace Presentation
         protected global::System.Web.UI.WebControls.TextBox TBDocument;
 
         /// <summary>
-        /// Control Label16.
+        /// Control Label3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label16;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// Control TBHeight.
+        /// Control TBSueldo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TBHeight;
+        protected global::System.Web.UI.WebControls.TextBox TBSueldo;
+
+        /// <summary>
+        /// Control Label2.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+
+        /// <summary>
+        /// Control DDLTipoContrato.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DDLTipoContrato;
 
         /// <summary>
         /// Control BTEnviar.
@@ -121,5 +139,14 @@ namespace Presentation
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BTEnviar;
+
+        /// <summary>
+        /// Control LblMensaje.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblMensaje;
     }
 }

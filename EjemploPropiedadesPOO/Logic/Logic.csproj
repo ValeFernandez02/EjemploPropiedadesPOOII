@@ -73,6 +73,7 @@
     <Compile Include="Model\Book.cs" />
     <Compile Include="Model\Car.cs" />
     <Compile Include="Model\Card.cs" />
+    <Compile Include="Model\Employee.cs" />
     <Compile Include="Model\house.cs" />
     <Compile Include="Model\Laptop.cs" />
     <Compile Include="Model\person.cs" />

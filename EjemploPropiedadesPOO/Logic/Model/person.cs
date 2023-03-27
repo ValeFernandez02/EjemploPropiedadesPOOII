@@ -7,30 +7,30 @@ namespace Logic.Model
 {
     public class person
     {
-        private string coloreyes ;
-        private int ege ;
-        private int document ;
-        private double height ;
+        private string nombre;
+        private string apellido ;
+        private string document ;
+        //private double height ;
 
-        public person(string coloreyes, int ege, int document, double height)
+        public person(string nombre, string apellido, string document/*, double height*/)
         {
-            this.coloreyes = coloreyes;
-            this.ege = ege;
+            this.nombre = nombre;
+            this.apellido = apellido;
             this.document = document;
-            this.height = height;
+            //this.height = height;
         }
 
-        public string Coloreyes { get => coloreyes; set => coloreyes = value; }
-        public int Ege { get => ege; set => ege = value; }
-        public int Document { get => document; set => document = value; }
-        public double Height { get => height; set => height = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Ege { get => apellido; set => apellido = value; }
+        public string Document { get => document; set => document = value; }
+        //public double Height { get => height; set => height = value; }
 
         //metodo 
-        public string infoper()
-        {
-            string msj = " La persona con el color de ojos  " + Coloreyes + "  y de estatura " + Height + " Con la edad "+Ege+" y el documento "+Document;
-            return msj;
-        }
+        //public string infoper()
+        //{
+        //    string msj = " La persona con el color de ojos  " + Coloreyes + "  y de estatura " " Con la edad "+Ege+" y el documento "+Document;
+        //    return msj;
+        //}
         public string doc()
         {
             string msj = "La edad es de "+Ege+"coincide con el documento de numero "+Document+"";
